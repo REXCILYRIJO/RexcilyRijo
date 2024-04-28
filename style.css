@@ -509,14 +509,28 @@ section .title::after{
     font-size: 10px;
     
 }
+/* LinkedIn */
+a[href*="linkedin.com"]:hover .fab.fa-linkedin {
+    color: blue;
+}
+
+/* Instagram */
+a[href*="instagram.com"]:hover .fab.fa-instagram {
+    color: rgb(255, 0, 200);
+}
+
 .social-networks a:hover {
     color: #4f46d4; /*Change hover color as needed */ 
 }
-.social-networks b:hover {
-    color: #f80ab1; /*Change hover color as needed */ 
+
+/* Medium */
+a[href*="medium.com"]:hover .fab.fa-medium {
+    color: grey;
 }
-.social-networks c:hover {
-    color: #7b807f; /*Change hover color as needed */ 
+
+/* GitHub */
+a[href*="github.com"]:hover .fab.fa-github {
+    color: grey;
 }
 
 
