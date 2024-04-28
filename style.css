@@ -509,6 +509,7 @@ section .title::after{
     font-size: 10px;
     
 }
+
 /* LinkedIn */
 a[href*="linkedin.com"]:hover .fab.fa-linkedin {
     color: blue;
@@ -532,6 +533,7 @@ a[href*="medium.com"]:hover .fab.fa-medium {
 a[href*="github.com"]:hover .fab.fa-github {
     color: grey;
 }
+
 
 
 .contact .right form .field,
